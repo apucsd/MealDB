@@ -4,12 +4,28 @@
   grid-template-columns: 3fr 1fr;
   gap: 16px;
 }
+
 .food-section {
-  border: 2px solid lightgray;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
 .cart-section {
   border: 2px solid lightgray;
+}
+
+/* ///// */
+@media only screen and (max-width: 576px) {
+  .main-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .food-section {
+    grid-template-columns: 1fr;
+  }
+  .food-cart {
+    padding: 5px;
+  }
+  .food-cart img {
+    height: 170px;
+  }
 }
