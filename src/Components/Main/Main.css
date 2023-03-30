@@ -1,0 +1,15 @@
+.main-section {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 16px;
+}
+.food-section {
+  border: 2px solid lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.cart-section {
+  border: 2px solid lightgray;
+}
